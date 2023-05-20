@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.carousel-item {
+    height: 740px;
+}
+
+.g__carusel_img {
+    width: 70%;
+}
+
+.h5__carusel-img {
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.p__carusel-img {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+/* MODALS */
+.g__modal-body {
+    border: 1px solid #ffffff;
+    max-width: 100%;
+}
+
+.g__button-modal-1 {
+    background-color: rgb(67, 67, 67);
+    border: none;
+    width: 950px;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}

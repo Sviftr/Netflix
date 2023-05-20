@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main class="main">
+        <div id="carouselExampleCaptions" class="carousel slide">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <img src="./img/img1.png" class="g__carusel_img" alt="nope">
+                        <h5 class="h5__carusel-img">Дивіться на телевізорі</h5>
+                        <p class="p__carusel-img">Дивіться на Smart TV, Playstation, Xbox, Chromecast, Apple TV, Blu-ray-програвачах тощо.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <img src="./img/img2.png" class="g__carusel_img" alt="nope">
+                        <h5 class="h5__carusel-img">Завантажуйте контент і дивіться його офлайн</h5>
+                        <p class="p__carusel-img">Легко зберігайте улюблені телесеріали й фільми, щоб дивитися їх будь-коли.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <img src="./img/img3.png" class="g__carusel_img" alt="nope">
+                        <h5 class="h5__carusel-img">Дивіться будь-де</h5>
+                        <p class="p__carusel-img">Дивіться фільми й телесеріали без обмежень на смартфоні, планшеті, ноутбуці й телевізорі.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <img src="./img/img4.png" class="g__carusel_img" alt="nope">
+                        <h5 class="h5__carusel-img">Створюйте профілі для дітей</h5>
+                        <p class="p__carusel-img">Ваші діти зможуть мандрувати країною фантазії разом з улюбленими персонажами в спеціальних профілях, які входять у вартість підписки.</p>
+                    </div>
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+    
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    
+            <!-- MODAL -->
+    
+            <div class="g__modal-body">
+                <!-- Button trigger modal -->
+                <button type="button" class="g__button-modal-1 btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Що таке Netflix?
+                </button>
+                
+                <!-- Modal 1-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.js"></script>
+</body>
+</html>
